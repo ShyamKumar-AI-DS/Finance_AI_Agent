@@ -5,8 +5,10 @@
 *An intelligent agent that analyzes stocks using real-time financial data and web search.*
 
 This Streamlit app combines **web search**, **Yahoo Finance data**, and **LLM-powered analysis** to provide insightful, structured responses about stocks — all in one clean interface.
-
 ---
+## APP 
+
+https://financialaiagent.streamlit.app/
 
 ## 🔍 Features
 
