@@ -35,7 +35,7 @@ Uses a team of specialized agents:
 | Component | Technology |
 |--------|-----------|
 | Framework | [Streamlit](https://streamlit.io) |
-| LLM Model | [Groq + Qwen3-32B](https://groq.com) |
+| LLM Model | [Groq + LLAMA 3.3](https://groq.com) |
 | Tools | [Google Search](https://github.com/phi-lang/phi), [Yahoo Finance](https://github.com/phi-lang/phi) |
 | Data Processing | Python, Pandas, Regular Expressions |
 | Environment | `.env`, `python-dotenv` |
