@@ -1,0 +1,8 @@
+streamlit 
+pandas 
+phidata
+groq
+googlesearch-python
+pycountry
+yfinance
+dotenv

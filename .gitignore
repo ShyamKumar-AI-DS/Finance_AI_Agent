@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.env
+AI_Agent/
