@@ -1,6 +1,7 @@
 # 📈 AI Stock Analysis Agent
 
-![Demo Screenshot](https://via.placeholder.com/800x400?text=AI+Stock+Analysis+Agent)  
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a743b8a9-0839-4c38-a663-e2897bdbc939" />
+  
 *An intelligent agent that analyzes stocks using real-time financial data and web search.*
 
 This Streamlit app combines **web search**, **Yahoo Finance data**, and **LLM-powered analysis** to provide insightful, structured responses about stocks — all in one clean interface.
