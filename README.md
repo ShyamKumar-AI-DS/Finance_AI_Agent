@@ -8,9 +8,9 @@ This Streamlit app combines **web search**, **Yahoo Finance data**, and **LLM-po
 
 ---
 ## APP 
-```
-https://financialaiagent.streamlit.app/
-```
+
+**https://financialaiagent.streamlit.app/**
+
 
 ## 🔍 Features
 
