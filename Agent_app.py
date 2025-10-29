@@ -30,7 +30,7 @@ if "messages" not in st.session_state:
 def get_agents():
     web_search = Agent(
         name="Search Agent",
-        model=Groq(id="deepseek-r1-distill-llama-70b", max_tokens=800),
+        model=Groq(id="openai/gpt-oss-20b", max_tokens=800),
         tools=[GoogleSearch()],
         show_tool_calls=False,
         markdown=True,
@@ -44,7 +44,7 @@ def get_agents():
 
     finance_agent = Agent(
         name="Finance Agent",
-        model=Groq(id="deepseek-r1-distill-llama-70b", max_tokens=800),
+        model=Groq(id="openai/gpt-oss-20b", max_tokens=800),
         tools=[YFinanceTools(
             stock_price=True,
             stock_fundamentals=True,
@@ -62,7 +62,7 @@ def get_agents():
 
     team_agent = Agent(
         team=[web_search, finance_agent],
-        model=Groq(id="deepseek-r1-distill-llama-70b", max_tokens=1000),
+        model=Groq(id="openai/gpt-oss-20b", max_tokens=1000),
         show_tool_calls=False,
         markdown=True,
         instructions=[
@@ -321,4 +321,4 @@ with st.sidebar:
     - What are analysts saying about NVDA?
     """)
     st.markdown("---")
-    st.markdown("Powered by Groq & LLAMA 3.3")
+    st.markdown("Powered by Groq & Llama 3.3")
